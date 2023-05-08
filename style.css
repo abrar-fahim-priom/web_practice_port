@@ -1,0 +1,27 @@
+h1{
+   font-size: 45px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.name_highlight{
+    color: rgb(46, 2, 150);
+}
+
+.first-half{
+    margin-left: 5%;
+    padding-left: 3%;
+    float: left;
+    width: 40%;
+}
+
+.second-half img {
+    width:100%
+}
+.second-half{
+    width: 40%;
+    float: left;
+}
