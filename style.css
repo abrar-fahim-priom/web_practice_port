@@ -11,17 +11,78 @@ body{
     color: rgb(46, 2, 150);
 }
 
+section{
+    height: 600px;
+}
 .first-half{
     margin-left: 5%;
     padding-left: 3%;
+    padding-right: 3%;
     float: left;
-    width: 40%;
+    width: 35%;
 }
 
-.second-half img {
-    width:100%
+.first-half img {
+    width:90%;
 }
-.second-half{
-    width: 40%;
-    float: left;
+
+.main-section {
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
+
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, tomato, rgb(255, 0, 0));
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 30px;
+    position: relative;
+    top: 20px;
+    
+}
+
+.transform-second{
+   position: relative;
+   top: 30px;
+}
+
+.second-pic{
+ 
+}
+
+.career {
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+ .single-exp{
+    height: 60%;
+    box-shadow: 10px 10px 30px skyblue;
+    border-radius: 4%;
+    padding-top: 30px;
+    background-color: white;
+ }
+
+ .experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+ }
+
+ #web-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(58, 205, 241), rgb(78, 4, 197));
+    border-image-slice: 1;
+    border-radius: 6%;
+ }
+
+ #gfx-dsn{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(241, 110, 58), rgb(219, 7, 7));
+    border-image-slice: 1;
+    border-radius: 6%;
+ }
